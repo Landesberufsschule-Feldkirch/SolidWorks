@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>24</AppVersion>
+  <CPSheet>
+    <GroupBox Label="Stückliste" PropName="Gruppenfeld2" DefaultState="Expanded">
+      <Control Label="Benennung der Zeichnung" PropName="Project" ApplyTo="Global" Type="TextBox" DefaultValue="SW-File Name" Mode="SWProperty" />
+      <Control Label="Zeichnungsnummer" PropName="Norm-Nr. Zeichnungs-Nr." ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="Gezeichnet von:" PropName="DrawnBy" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="Gezeichnet am:" PropName="DrawnDate" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Date" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
